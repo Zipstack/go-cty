@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/zclconf/go-cty/cty"
-	"github.com/zclconf/go-cty/cty/set"
+	"github.com/zipstack/go-cty/cty"
+	"github.com/zipstack/go-cty/cty/set"
 )
 
 func TestIn(t *testing.T) {
