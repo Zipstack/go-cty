@@ -3,10 +3,10 @@ package stdlib
 import (
 	"fmt"
 
-	"github.com/zipstack/go-cty/cty/convert"
+	"github.com/zclconf/go-cty/cty/convert"
 
-	"github.com/zipstack/go-cty/cty"
-	"github.com/zipstack/go-cty/cty/function"
+	"github.com/zclconf/go-cty/cty"
+	"github.com/zclconf/go-cty/cty/function"
 )
 
 var SetHasElementFunc = function.New(&function.Spec{

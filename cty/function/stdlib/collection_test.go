@@ -5,7 +5,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/zipstack/go-cty/cty"
+	"github.com/zclconf/go-cty/cty"
 )
 
 func TestHasIndex(t *testing.T) {

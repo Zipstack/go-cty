@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	"github.com/zipstack/go-cty/cty"
-	"github.com/zipstack/go-cty/cty/function"
+	"github.com/zclconf/go-cty/cty"
+	"github.com/zclconf/go-cty/cty/function"
 )
 
 // line 21 "format_fsm.go"

@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/zipstack/go-cty/cty/set"
+	"github.com/zclconf/go-cty/cty/set"
 )
 
 func TestSetHashBytes(t *testing.T) {

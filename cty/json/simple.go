@@ -1,7 +1,7 @@
 package json
 
 import (
-	"github.com/zipstack/go-cty/cty"
+	"github.com/zclconf/go-cty/cty"
 )
 
 // SimpleJSONValue is a wrapper around cty.Value that adds implementations of

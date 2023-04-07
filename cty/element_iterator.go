@@ -3,7 +3,7 @@ package cty
 import (
 	"sort"
 
-	"github.com/zipstack/go-cty/cty/set"
+	"github.com/zclconf/go-cty/cty/set"
 )
 
 // ElementIterator is the interface type returned by Value.ElementIterator to
@@ -11,11 +11,11 @@ import (
 //
 // Its usage pattern is as follows:
 //
-//	it := val.ElementIterator()
-//	for it.Next() {
-//	    key, val := it.Element()
-//	    // ...
-//	}
+//     it := val.ElementIterator()
+//     for it.Next() {
+//         key, val := it.Element()
+//         // ...
+//     }
 type ElementIterator interface {
 	Next() bool
 	Element() (key Value, value Value)

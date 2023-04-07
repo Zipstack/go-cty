@@ -3,7 +3,7 @@ package convert
 import (
 	"strings"
 
-	"github.com/zipstack/go-cty/cty"
+	"github.com/zclconf/go-cty/cty"
 )
 
 var stringTrue = cty.StringVal("true")

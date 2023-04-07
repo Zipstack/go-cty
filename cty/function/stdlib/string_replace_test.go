@@ -3,7 +3,7 @@ package stdlib
 import (
 	"testing"
 
-	"github.com/zipstack/go-cty/cty"
+	"github.com/zclconf/go-cty/cty"
 )
 
 func TestReplace(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 
 	"github.com/vmihailenco/msgpack/v5"
 	msgpackcodes "github.com/vmihailenco/msgpack/v5/msgpcode"
-	"github.com/zipstack/go-cty/cty"
+	"github.com/zclconf/go-cty/cty"
 )
 
 // ImpliedType returns the cty Type implied by the structure of the given

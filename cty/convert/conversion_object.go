@@ -1,7 +1,7 @@
 package convert
 
 import (
-	"github.com/zipstack/go-cty/cty"
+	"github.com/zclconf/go-cty/cty"
 )
 
 // conversionObjectToObject returns a conversion that will make the input

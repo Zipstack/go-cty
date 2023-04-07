@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"sort"
 
-	"github.com/zipstack/go-cty/cty"
+	"github.com/zclconf/go-cty/cty"
 )
 
 func marshal(val cty.Value, t cty.Type, path cty.Path, b *bytes.Buffer) error {
