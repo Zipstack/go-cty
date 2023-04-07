@@ -1,4 +1,4 @@
-module github.com/zipstack/go-cty
+module github.com/zclconf/go-cty
 
 require (
 	github.com/apparentlymart/go-textseg/v13 v13.0.0
