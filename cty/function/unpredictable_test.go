@@ -3,7 +3,7 @@ package function
 import (
 	"testing"
 
-	"github.com/zipstack/go-cty/cty"
+	"github.com/zclconf/go-cty/cty"
 )
 
 func TestUnpredictable(t *testing.T) {
