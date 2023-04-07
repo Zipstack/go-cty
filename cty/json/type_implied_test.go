@@ -3,7 +3,7 @@ package json
 import (
 	"testing"
 
-	"github.com/zclconf/go-cty/cty"
+	"github.com/zipstack/go-cty/cty"
 )
 
 func TestImpliedType(t *testing.T) {

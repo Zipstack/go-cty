@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/zclconf/go-cty/cty"
-	"github.com/zclconf/go-cty/cty/convert"
-	"github.com/zclconf/go-cty/cty/function"
+	"github.com/zipstack/go-cty/cty"
+	"github.com/zipstack/go-cty/cty/convert"
+	"github.com/zipstack/go-cty/cty/function"
 )
 
 // MakeToFunc constructs a "to..." function, like "tostring", which converts

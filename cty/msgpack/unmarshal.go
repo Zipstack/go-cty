@@ -5,7 +5,7 @@ import (
 
 	"github.com/vmihailenco/msgpack/v5"
 	msgpackCodes "github.com/vmihailenco/msgpack/v5/msgpcode"
-	"github.com/zclconf/go-cty/cty"
+	"github.com/zipstack/go-cty/cty"
 )
 
 // Unmarshal interprets the given bytes as a msgpack-encoded cty Value of

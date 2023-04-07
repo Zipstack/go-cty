@@ -5,7 +5,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/zclconf/go-cty/cty/ctystrings"
+	"github.com/zipstack/go-cty/cty/ctystrings"
 )
 
 // Refine creates a [RefinementBuilder] with which to annotate the reciever

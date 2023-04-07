@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/zclconf/go-cty/cty/ctystrings"
-	"github.com/zclconf/go-cty/cty/set"
+	"github.com/zipstack/go-cty/cty/ctystrings"
+	"github.com/zipstack/go-cty/cty/set"
 )
 
 // BoolVal returns a Value of type Number whose internal value is the given

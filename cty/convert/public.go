@@ -3,7 +3,7 @@ package convert
 import (
 	"errors"
 
-	"github.com/zclconf/go-cty/cty"
+	"github.com/zipstack/go-cty/cty"
 )
 
 // This file contains the public interface of this package, which is intended

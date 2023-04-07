@@ -5,8 +5,8 @@ import (
 	"regexp"
 	resyntax "regexp/syntax"
 
-	"github.com/zclconf/go-cty/cty"
-	"github.com/zclconf/go-cty/cty/function"
+	"github.com/zipstack/go-cty/cty"
+	"github.com/zipstack/go-cty/cty/function"
 )
 
 var RegexFunc = function.New(&function.Spec{

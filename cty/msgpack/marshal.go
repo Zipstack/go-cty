@@ -6,8 +6,8 @@ import (
 	"sort"
 
 	"github.com/vmihailenco/msgpack/v5"
-	"github.com/zclconf/go-cty/cty"
-	"github.com/zclconf/go-cty/cty/convert"
+	"github.com/zipstack/go-cty/cty"
+	"github.com/zipstack/go-cty/cty/convert"
 )
 
 // Marshal produces a msgpack serialization of the given value that

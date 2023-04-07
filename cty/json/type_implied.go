@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/zclconf/go-cty/cty"
+	"github.com/zipstack/go-cty/cty"
 )
 
 // ImpliedType returns the cty Type implied by the structure of the given

@@ -5,9 +5,9 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/zclconf/go-cty/cty"
-	"github.com/zclconf/go-cty/cty/function"
-	"github.com/zclconf/go-cty/cty/json"
+	"github.com/zipstack/go-cty/cty"
+	"github.com/zipstack/go-cty/cty/function"
+	"github.com/zipstack/go-cty/cty/json"
 )
 
 var JSONEncodeFunc = function.New(&function.Spec{

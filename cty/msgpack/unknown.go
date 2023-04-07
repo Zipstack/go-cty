@@ -7,7 +7,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/vmihailenco/msgpack/v5"
-	"github.com/zclconf/go-cty/cty"
+	"github.com/zipstack/go-cty/cty"
 )
 
 type unknownType struct{}

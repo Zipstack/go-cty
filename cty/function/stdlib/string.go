@@ -8,9 +8,9 @@ import (
 
 	"github.com/apparentlymart/go-textseg/v13/textseg"
 
-	"github.com/zclconf/go-cty/cty"
-	"github.com/zclconf/go-cty/cty/function"
-	"github.com/zclconf/go-cty/cty/gocty"
+	"github.com/zipstack/go-cty/cty"
+	"github.com/zipstack/go-cty/cty/function"
+	"github.com/zipstack/go-cty/cty/gocty"
 )
 
 var UpperFunc = function.New(&function.Spec{

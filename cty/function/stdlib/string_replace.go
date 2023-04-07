@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/zclconf/go-cty/cty"
-	"github.com/zclconf/go-cty/cty/function"
+	"github.com/zipstack/go-cty/cty"
+	"github.com/zipstack/go-cty/cty/function"
 )
 
 // ReplaceFunc is a function that searches a given string for another given
