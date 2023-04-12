@@ -451,20 +451,22 @@ func fromCtyObject(val cty.Value, target reflect.Value, path cty.Path) error {
 	case reflect.Struct:
 
 		attrTypes := val.Type().AttributeTypes()
-		targetFields := structTagIndices(target.Type())
+		targetFields, targetFieldsTags := structTagIndices(target.Type())
 
 		path = append(path, nil)
 
 		for k, i := range targetFields {
 			if _, exists := attrTypes[k]; !exists {
-				// If the field in question isn't able to represent nil,
-				// that's an error.
-				fk := target.Field(i).Kind()
-				switch fk {
-				case reflect.Ptr, reflect.Slice, reflect.Map, reflect.Interface:
-					// okay
-				default:
-					return path.NewErrorf("missing required attribute %q", k)
+				if omitempty := targetFieldsTags[k]["omitempty"]; !omitempty {
+					// If the field in question isn't able to represent nil,
+					// that's an error.
+					fk := target.Field(i).Kind()
+					switch fk {
+					case reflect.Ptr, reflect.Slice, reflect.Map, reflect.Interface:
+						// okay
+					default:
+						return path.NewErrorf("missing required attribute %q", k)
+					}
 				}
 			}
 		}
