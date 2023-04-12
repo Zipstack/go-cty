@@ -478,7 +478,7 @@ func fromCtyObject(val cty.Value, target reflect.Value, path cty.Path) error {
 
 			fieldIdx, exists := targetFields[k]
 			if !exists {
-				return path.NewErrorf("unsupported attribute %q", k)
+				return path.NewErrorf("unsupported attribute %q: pctsdk tag not found", k)
 			}
 
 			ev := val.GetAttr(k)
